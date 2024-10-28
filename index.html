@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css">
+  <title>電卓</title>
+</head>
+
+<body>
+<table class="calculator">
+  <!-- 式の内容と答えを出すディスプレイ -->
+  <tr>
+    <td colspan="4"><div id="display"></div></td>
+  </tr>
+
+<!-- 電卓のボタン＝数字、四則演算子、小数点、イコール -->
+
+  <tr>
+    <td><button class="calculator-button button" value="7" type="button">7</button></td>
+    <td><button class="calculator-button button" value="8" type="button">8</button></td>
+    <td><button class="calculator-button button" value="9" type="button">9</button></td>
+    <td><button class="calculator-button button" value="/" type="button">÷</button></td>
+  </tr>
+  <tr>
+    <td><button class="calculator-button button" value="4" type="button">4</button></td>
+    <td><button class="calculator-button button" value="5" type="button">5</button></td>
+    <td><button class="calculator-button button" value="6" type="button">6</button></td>
+    <td><button class="calculator-button button" value="*" type="button">✕</button></td>
+  </tr>
+  <tr>
+    <td><button class="calculator-button button" value="1" type="button">1</button></td>
+    <td><button class="calculator-button button" value="2" type="button">2</button></td>
+    <td><button class="calculator-button button" value="3" type="button">3</button></td>
+    <td><button class="calculator-button button" value="-" type="button">−</button></td>
+  </tr>
+  <tr>
+    <td><button class="calculator-button button" value="0" type="button">0</button></td>
+    <td><button class="calculator-button button" value="00" type="button">00</button></td>
+    <td><button class="calculator-button button" value="." type="button">.</button></td>
+    <td><button class="calculator-button button" value="+" type="button">＋</button></td>
+  </tr>
+  <tr>
+    <td><button class="calculator-button button" value="backspace" type="button">▶</button></td> <!-- 右から一桁ずつ消す -->
+    <td><button class="calculator-button button" value="all_clear" type="button">AC</button></td>
+    <td colspan="2"><button class="calculator-button button" value="equal" type="button">＝</button></td>
+  </tr>
+</table>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
